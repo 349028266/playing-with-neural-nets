@@ -4,6 +4,6 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 
-thing = torch.rand()
+thing = torch.rand(5,3)
 
-print(thing);
+print(thing)
